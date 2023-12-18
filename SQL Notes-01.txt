@@ -1,0 +1,68 @@
+DBMS
+
+1. Database Management System is a software that is
+   used to manage the data.
+   
+2. In DBMS the data is stored in a structured pattern (table),which helps in easy retrival of data.
+
+3. DBMS provides interface to perform various operations like creation of database, storing of data, retrival of data, updation & deletion of data.
+
+
+RDBMS (Relational Database mangement system): An RDBMS is a type of database management system that again stores data in a table format. but in RDBMS you can relate(connect) one table with another table.
+
+The examples of RDBMS are: MySQL, Oracle, Postgres, MS-SQL.
+
+
+What is a Database : A database is a collection of 
+structured information or data typically stored in electronic format, where you can add,update,retrive and delete records.
+
+
+   
+
+==============================================
+
+
+To check all the databases : SHOW DATABASES;
+
+To create a database: CREATE DATABASE demo;
+
+To use any database as per your requirement:
+USE databaseName;
+
+TABLE: In SQL a table is a collection of related data organized in a row & column format.
+
+Each column inside a table consist of a header (which we call it as a column name).
+
+
+SQL COMMANDS: 
+
+1) Data Definition Language (DDL)
+	
+	1. CREATE
+	2. ALTER
+	3. DROP
+	4. TRUNCATE
+	5. RENAME
+	
+	
+2) Data Manipulation Language (DML)
+
+	1. INSERT
+	2. UPDATE
+	3. DELETE
+	
+	
+3) Data Control Language
+	1. Grant
+	2. Revoke.
+	
+	
+4) Transaction Control Language (TCL)
+	
+	1. Commit
+	2. Roll back
+	3. Save Point
+
+
+5) Data Query Language (DQL)
+	1. SELECT

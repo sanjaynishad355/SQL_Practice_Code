@@ -1,0 +1,56 @@
+
+CREATE A TABLE: TO Create a table in MYSQL use the below command
+
+ CREATE TABLE students(
+    firstname varchar(100),
+    lastname varchar(100),
+    email varchar(100),
+    course_name varchar(50),
+    course_fees int,
+    course_duration int,
+    admission_date DATE
+    );
+	
+	
+TO CHECK WHETHER THE TABLE IS CREATED USE THE BELOW COMMAND:
+
+SHOW TABLES;
+
+
+TO CHECK THE DETAILED DESCRIPTION OF THE TABLE USE THE BELOW COMMAND
+
+DESC TABLE_NAME;
+
+
+TO ADD A NEW COLUMN in the TABLE USE THE ALTER COMMAND
+
+ALTER TABLE table_name
+ADD column_name datatype
+;
+
+
+TO DROP A EXISITING COLUMN FROM THE TABLE USE THE BELOW COMMAND
+
+ALTER TABLE table_name
+DROP COLUMN column_name 
+;
+
+
+TO CHANGE THE DATA-TYPE IN YOUR EXISITING TABLE USE The BELOW COMMAND
+
+ALTER TABLE table_name
+MODIFY COLUMN column_name data_type 
+;
+
+
+TO RENAME A EXISITING COLUMN USE THE BELOW COMMAND
+
+ALTER TABLE students
+RENAME column email to email_id
+;
+
+
+TO SHIFT THE COLUMN SEQUENCE in THE TABLE USE The BELOW COMMAND
+
+ALTER TABLE students MODIFY course_name varchar(50) AFTER lastname;
+
